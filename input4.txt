@@ -1,0 +1,10 @@
+@@int a;
+@@int ff;
+@@int dd;
+void main()
+{
+@int b;
+@int c;
+}
+}
+@@int d;

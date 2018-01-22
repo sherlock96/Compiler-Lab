@@ -1,0 +1,5 @@
+Pos [+][0-9]+
+Neg [-][0-9]+
+%{
+	int words=0,chrs=0,lines=1;
+%}
