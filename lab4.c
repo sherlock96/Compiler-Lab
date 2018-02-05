@@ -37,7 +37,7 @@ int main()
 {
 	char str[10000];
 	gets(str);	
-	puts(str);
+	//puts(str);
 	int len=strlen(str);
 	str[len]='$';
 	str[++len]='\0';
@@ -66,10 +66,6 @@ int main()
 		{
 			pop();push('F');push('T');
 		}
-		else if(curr=='i' && peek()=='F')
-		{
-			pop();push('i');i++;	
-		}
 		else if(curr=='+')
 		{
 			pop();push('F');push('T');push('+');
@@ -78,6 +74,7 @@ int main()
 		{
 			pop();i++;
 		}
+		else {break;}
 		//print();
 		if(top==0) break;
 	}
